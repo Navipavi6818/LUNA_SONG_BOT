@@ -22,9 +22,9 @@ class script(object):
  
     VSONG = """Help: <b>📀VSONG📀</b>
 
-- /vsong
-  """
+➩ /vsong <songname artist(optional)>: uploads the video song in it's best quality available"""
+  
     LYRICS = """Help: <b>🎶LYRICS🎶</b>
 
-- /lyrics 
-  """
+➩ /lyrics <songname>: uploads the lyrics of song """
+  
