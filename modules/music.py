@@ -40,14 +40,14 @@ except:
 @register(pattern="^/music (.*)")
 async def download_video(v_url):
 
-    lazy = v_url
-    sender = await lazy.get_sender()
-    me = await lazy.client.get_me()
+    luna = v_url
+    sender = await luna.get_sender()
+    me = await luna.client.get_me()
 
     if not sender.id == me.id:
-        rkp = await lazy.reply("`🔎SEARCHING🔍 please wait...`")
+        rkp = await luna.reply("`🔎SEARCHING🔍 please wait...`")
     else:
-        rkp = await lazy.edit("`processing...😉`")
+        rkp = await luna.edit("`processing...😉`")
     url = v_url.pattern_match.group(1)
     if not url:
         return await rkp.edit("`Error \nusage song <song name>`")
