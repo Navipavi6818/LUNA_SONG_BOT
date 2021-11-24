@@ -10,7 +10,7 @@ class script(object):
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄"""
     SOURCE_TXT = """<b>NOTE:</b>
 ➩ LUNA IS A OPEN SOURCE PROJECT  
-
+  <a href=https://github.com/Navipavi6818/LUNA_SONG_BOT>LUNASONGBOT</a>
 <b>DEVS:</b>
 ➩ <a href=https://t.me/N_A_V_I_P_A_V_I>MR PROFESSOR</a>
 ➩ <a href=https://t.me/N_A_V_I_P_A_V_I>MR PROFESSOR</a>
