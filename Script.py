@@ -13,8 +13,8 @@ class script(object):
   <a href=https://github.com/Navipavi6818/LUNA_SONG_BOT>LUNASONGBOT</a>
 <b>DEVS:</b>
 ➩ <a href=https://t.me/N_A_V_I_P_A_V_I>MR PROFESSOR</a>
-➩ <a href=https://t.me/N_A_V_I_P_A_V_I>MR PROFESSOR</a>
-➩ <a  href=https://t.me/N_A_V_I_P_A_V_I>MR PROFESSOR</a>
+➩ <a href=https://t.me/shamilhabeeb>𝕊𝕞𝕃</a>
+➩ <a  href=https://github.com/M-fazin>M-fazin</a>
 
     MUSIC = """Help: <b>🎧MUSIC🎧</b>
 
