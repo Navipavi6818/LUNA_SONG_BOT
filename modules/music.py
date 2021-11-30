@@ -27,7 +27,7 @@ except:
     from youtubesearchpython import SearchVideos
 
 
- @LUNA.on_message(filters.private & filters.command(["music"]))
+ @Luna.on_message(filters.private & filters.command(["music"]))
   async def download_video(v_url):
 
     luna = v_url
@@ -147,15 +147,15 @@ except:
         os.remove(f"{rip_data['id']}.mp4")
 
 
-   @LUNA.on_message(filters.private & filters.command(["vsong"]))
+   @Luna.on_message(filters.private & filters.command(["vsong"]))
    async def download_video(v_url):
-    lazy = v_url
+    luna = v_url
     sender = await lazy.get_sender()
     me = await lazy.client.get_me()
     if not sender.id == me.id:
-        rkp = await lazy.reply("`🔎SEARCHING🔍 please wait...`")
+        rkp = await luna.reply("`🔎SEARCHING🔍 please wait...`")
     else:
-        rkp = await lazy.edit("`processing...😉`")
+        rkp = await luna.edit("`processing...😉`")
     url = v_url.pattern_match.group(1)
     if not url:
         return await rkp.edit("`Error \nusage song <song name>`")
