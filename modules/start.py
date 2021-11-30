@@ -14,7 +14,7 @@ BUTTONS = {}
 SPELL_CHECK = {}
 
        
-   @Client.on_message(filters.command('start'))
+   @Luna.on_message(filters.private & filters.command(["start"]))
    async def start(client, message):
        buttons = [[                                    
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
