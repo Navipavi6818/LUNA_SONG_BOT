@@ -27,7 +27,7 @@ except:
     from youtubesearchpython import SearchVideos
 
 
-@register(pattern="^/music (.*)")
+@Client.on_message(filters.command('start'))
 async def download_video(v_url):
 
     luna = v_url
@@ -147,7 +147,7 @@ async def download_video(v_url):
         os.remove(f"{rip_data['id']}.mp4")
 
 
-@register(pattern="^/vsong (.*)")
+@Client.on_message(filters.command('start'))
 async def download_video(v_url):
     lazy = v_url
     sender = await lazy.get_sender()
