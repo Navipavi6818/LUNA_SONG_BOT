@@ -14,4 +14,5 @@ YOU CAN DOWNLOAD MP3 SONG AND VIDEO OF SONG AND LYRICS FROM TELEGRAM BOT
 
 
 ### CREDIT
-
+[shamilhabeebnelli](https://github.com/shamilhabeebnelli)
+[Navipavi](https://github.com/Navipavi6818)
