@@ -85,7 +85,7 @@ SPELL_CHECK = {}
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "vsong":
+    elif query.data == "lyrics":
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='help')
         ]]
