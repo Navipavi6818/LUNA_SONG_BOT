@@ -1,7 +1,7 @@
 {
     "name": "luna-Song-Bot",
     "description": "A Modular telegram song bot.",
-    "repository": "",
+    "repository": "https://github.com/Navipavi6818/LUNA_SONG_BOT",
     "keywords": [
        
         "telegram bot",
@@ -17,7 +17,7 @@
             "description": "Get this value from my.telegram.org",
             "value": ""
         },       
-        "START_IMG": {
+        "PICS": {
             "description": "Start Message's Photo.",
             "value": "https://telegra.ph/file/2a35fca576aa49de77c98.jpg"
         },
